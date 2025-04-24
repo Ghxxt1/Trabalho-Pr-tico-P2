@@ -5,7 +5,7 @@ def interface(): #criando a interface do game.
     print("2 [{}] [{}] [{}]".format(tabuleiro[2][0],tabuleiro[2][1],tabuleiro[2][2])) #Inserindo a array na interface.
     
 def validar(rodada): #Criando uma função para validar a vitória.
-    global parar #Comando usado para deixar a variavel "parar" para ser global
+    global parar #Comando usado para deixar a variavel "parar" para ser global.
     if(tabuleiro[0][0] == rodada and tabuleiro[0][1] == rodada and tabuleiro[0][2] == rodada): #Validando a vitória em horizontal.
         interface() 
         print ("O {} Venceu!".format(rodada))
