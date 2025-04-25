@@ -1,3 +1,6 @@
+#TADS 3 Periodo
+#Trabalho de Programaçao Orientada a Objeto
+#Arthur Melquiades de Freitas e Marco Antonio Souza
 def interface(): #criando a interface do game.
     print("   0   1   2")
     print("0 [{}] [{}] [{}]".format(tabuleiro[0][0],tabuleiro[0][1],tabuleiro[0][2])) #Inserindo a array na interface.
